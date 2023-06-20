@@ -1,0 +1,30 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.notfound-image {
+  height: 200px;
+  width: 250px;
+}
+.not-found-heading {
+  color: #5a7184;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.not-found-description {
+  color: #c3cad9;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .not-found-heading {
+    font-size: 24px;
+  }
+  .not-found-description {
+    font-size: 12px;
+  }
+}
